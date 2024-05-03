@@ -1,0 +1,43 @@
+[font]
+size = 13.5
+
+[font.normal]
+family = "FiraCode Nerd Font"
+style = "Regular"
+
+[[keyboard.bindings]]
+chars = "\u0013j"
+key = "J"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001BB"
+mods = "Alt"
+key = "Left"
+
+[[keyboard.bindings]]
+chars = "\u001BF"
+mods = "Alt"
+key = "Right"
+
+[[keyboard.bindings]]
+chars = "\u001bOH"
+mods = "Command"
+key = "Left"
+mode = "AppCursor"
+
+[[keyboard.bindings]]
+chars = "\u001bOF"
+mods = "Command"
+key = "Right"
+mode = "AppCursor"
+
+[[keyboard.bindings]]
+chars = "\u0015"
+mods = "Command"
+key = "Back"
+
+[[keyboard.bindings]]
+chars = "\u001b\u007f"
+mods = "Alt"
+key = "Back"
