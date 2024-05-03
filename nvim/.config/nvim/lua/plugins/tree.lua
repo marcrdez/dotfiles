@@ -12,6 +12,11 @@ return {
       window = {
         position = "right",
       },
+      filesystem = {
+        filtered_items = {
+          visible = true,
+        },
+      },
     })
 
     vim.keymap.set({ "n", "v" }, "<leader>t", ":Neotree toggle<CR>", {
