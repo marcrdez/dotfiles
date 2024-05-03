@@ -5,6 +5,9 @@ size = 13.5
 family = "FiraCode Nerd Font"
 style = "Regular"
 
+[window]
+opacity = 0.9
+
 [[keyboard.bindings]]
 chars = "\u0013j"
 key = "J"
@@ -41,3 +44,4 @@ key = "Back"
 chars = "\u001b\u007f"
 mods = "Alt"
 key = "Back"
+
