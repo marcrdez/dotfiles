@@ -11,6 +11,7 @@ return {
     require("neo-tree").setup({
       window = {
         position = "right",
+        auto_expand_width = true,
       },
       filesystem = {
         filtered_items = {
