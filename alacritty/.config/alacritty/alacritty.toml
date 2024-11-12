@@ -15,6 +15,7 @@ style = "Regular"
 
 [window]
 opacity = 0.9
+option_as_alt = "Both"
 
 [env]
 TERM = "xterm-256color"
@@ -24,27 +25,25 @@ chars = "\u0013j"
 key = "J"
 mods = "Alt"
 
-[[keyboard.bindings]]
-chars = "\u001BB"
-mods = "Alt"
-key = "Left"
-
-[[keyboard.bindings]]
-chars = "\u001BF"
-mods = "Alt"
-key = "Right"
+# [[keyboard.bindings]]
+# chars = "\u001BB"
+# mods = "Alt"
+# key = "Left"
+#
+# [[keyboard.bindings]]
+# chars = "\u001BF"
+# mods = "Alt"
+# key = "Right"
 
 [[keyboard.bindings]]
 chars = "\u001bOH"
 mods = "Command"
 key = "Left"
-mode = "AppCursor"
 
 [[keyboard.bindings]]
 chars = "\u001bOF"
 mods = "Command"
 key = "Right"
-mode = "AppCursor"
 
 [[keyboard.bindings]]
 chars = "\u0015"
