@@ -1,8 +1,5 @@
-import = [
-  "~/.config/alacritty/catppuccin-macchiato.toml"
-]
 
-[shell]
+[terminal.shell]
 program = "/opt/homebrew/opt/fish/bin/fish"
 
 
@@ -14,9 +11,8 @@ family = "FiraCode Nerd Font"
 style = "Regular"
 
 [window]
-opacity = 0.5
+opacity = 0.65
 blur = true
-option_as_alt = "Both"
 
 [hints]
 alphabet = "jfkdls;ahgurieowpq"
@@ -34,6 +30,15 @@ binding = { key = "O", mods = "Control" }
 [env]
 TERM = "xterm-256color"
 
+[[keyboard.bindings]]
+chars = "\u001Bb"
+mods = "Alt"
+key = "Left"
+
+[[keyboard.bindings]]
+chars = "\u001Bf"
+mods = "Alt"
+key = "Right"
 [[keyboard.bindings]]
 chars = "\u0013j"
 key = "J"
@@ -58,4 +63,11 @@ key = "Back"
 chars = "\u001b\u007f"
 mods = "Alt"
 key = "Back"
+
+[general]
+import = [
+  "~/.config/alacritty/catppuccin-macchiato.toml"
+]
+
+[terminal]
 
