@@ -1,0 +1,10 @@
+## Keybinds
+keybind = cmd+backspace=text:\x15
+keybind = super+k=text:\x0c
+
+theme = niji
+background-opacity = 0.75
+background-blur-radius = 60 
+mouse-hide-while-typing = true
+macos-titlebar-style = transparent
+
