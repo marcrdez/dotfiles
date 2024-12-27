@@ -8,3 +8,5 @@ background-blur-radius = 60
 mouse-hide-while-typing = true
 macos-titlebar-style = transparent
 
+macos-titlebar-proxy-icon = hidden
+title = "👻"
