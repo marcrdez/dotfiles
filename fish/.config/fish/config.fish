@@ -10,12 +10,19 @@ set fish_greeting "$(fish --version)"
 
 alias ..="cd .."
 alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
 
 alias l="ls -lF --color"
 
 # use neovim as default
 alias vi="nvim"
 alias vim="nvim"
+
+# tmux
+alias topen="tmux a -t"
+alias tlist="tmux ls"
+alias tnew="tmux new -s"
 
 # update fzf bindings 
 fzf_configure_bindings --directory=\cf --git_status=\cg
