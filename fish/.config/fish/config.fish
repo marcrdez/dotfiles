@@ -24,6 +24,9 @@ alias topen="tmux a -t"
 alias tlist="tmux ls"
 alias tnew="tmux new -s"
 
+# eza overriding ls
+alias ls="eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions"
+
 # update fzf bindings 
 fzf_configure_bindings --directory=\cf --git_status=\cg
 
