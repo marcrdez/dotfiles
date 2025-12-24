@@ -1,5 +1,4 @@
 ## Keybinds
-keybind = cmd+backspace=text:\x15
 keybind = super+k=text:\x0c
 
 theme = niji
@@ -10,3 +9,4 @@ macos-titlebar-style = transparent
 
 macos-titlebar-proxy-icon = hidden
 title = "👻"
+macos-option-as-alt = true

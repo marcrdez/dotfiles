@@ -1,6 +1,6 @@
 function biome_or_prettierd(bufnr)
   if require("conform").get_formatter_info("biome", bufnr).available then
-    return { "biome" }
+    return { "biome-check", lsp_format = "never" }
   else
     return { "prettierd" }
   end

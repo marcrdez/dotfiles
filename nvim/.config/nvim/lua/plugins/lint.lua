@@ -9,7 +9,7 @@ return {
       javascriptreact = { "eslint_d" },
       markdown = { "vale" },
       svelte = { "eslint_d" },
-      typescript = { "eslint_d" },
+      typescript = { "eslint" },
       typescriptreact = { "eslint_d" },
     }
 
