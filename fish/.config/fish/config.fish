@@ -24,10 +24,18 @@ alias topen="tmux a -t"
 alias tlist="tmux ls"
 alias tnew="tmux new -s"
 
-# eza overriding ls
-alias ls="eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions"
-
 # update fzf bindings 
 fzf_configure_bindings --directory=\cf --git_status=\cg
 
 set -g FZF_PREVIEW_FILE_CMD "bat --style=numbers --color=always --line-range :500"
+
+# pnpm
+set -gx PNPM_HOME /Users/marc/Library/pnpm
+if not string match -q -- $PNPM_HOME $PATH
+    set -gx PATH "$PNPM_HOME" $PATH
+end
+# pnpm end
+
+# bun
+set --export BUN_INSTALL "$HOME/.bun"
+set --export PATH $BUN_INSTALL/bin $PATH

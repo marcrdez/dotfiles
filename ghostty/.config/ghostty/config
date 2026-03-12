@@ -1,5 +1,6 @@
 ## Keybinds
 keybind = super+k=text:\x0c
+keybind = alt+backspace=text:\x1b\x7f
 
 theme = niji
 background-opacity = 0.90
@@ -9,4 +10,3 @@ macos-titlebar-style = transparent
 
 macos-titlebar-proxy-icon = hidden
 title = "👻"
-macos-option-as-alt = true
