@@ -3,5 +3,6 @@ catppuccin/fish
 jorgebucaran/autopair.fish
 jorgebucaran/hydro
 patrickf1/fzf.fish
-jhillyerd/plugin-git
-jorgebucaran/nvm.fish
+wfxr/forgit
+aluxian/fish-trash
+james2doyle/omf-plugin-fnm
