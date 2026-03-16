@@ -10,11 +10,6 @@ set -gx PATH /opt/homebrew/bin /opt/homebrew/sbin $PATH
 
 set fish_greeting "$(fish --version)"
 
-alias ..="cd .."
-alias ...="cd ../.."
-alias ....="cd ../../.."
-alias .....="cd ../../../.."
-
 alias l="ls -lF --color"
 
 # use neovim as default
@@ -44,6 +39,13 @@ end
 # bun
 set --export BUN_INSTALL "$HOME/.bun"
 set --export PATH $BUN_INSTALL/bin $PATH
+
+# GIT
+abbr -a gst "git status"
+abbr -a gco "git checkout"
+abbr -a gcm "git commit -m"
+abbr -a gp "git push"
+abbr -a gpl "git pull"
 
 # start starship prompt if installed
 if command -q starship
